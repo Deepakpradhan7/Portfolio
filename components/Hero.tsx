@@ -3,6 +3,7 @@ import { FaLocationArrow } from "react-icons/fa6";
 import MagicButton from "./MagicButton";
 import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
+// import resume from '../public/resume.pdf'
 
 const Hero = () => {
   return (
@@ -50,6 +51,7 @@ const Hero = () => {
 
           </div>
           </div>
+          <div className='flex flex-col gap-6 md:flex-row'>
           <a href="#about">
             <MagicButton
               title="Checkout my works"
@@ -57,6 +59,14 @@ const Hero = () => {
               position="right"
             />
           </a>
+                    <a href='/resume.pdf' download='resume.pdf'  >
+            <MagicButton
+              title="My Resume"
+              icon={<FaLocationArrow />}
+              position="right"
+            />
+          </a>
+          </div>
         </div>
       </div>
     </div>
