@@ -76,11 +76,11 @@ export const projects = [
   },
   {
     id: 2,
-    title: "Auth-Guard Show casing Authentication",
-    des: "Simplify your Authentication with NextJS combined with Next-Auth",
-    img: "AuthBridge.png",
+    title: "Linktyp- A free Link in bio tool",
+    des: "Unleash the full potential of your link in bio",
+    img: "Linktyp.png",
     iconLists: ["/next.svg", "/tail.svg","/ts.svg", 'nextauth.png' ],
-    link: "https://auth-guard.vercel.app/",
+    link: "https://www.typof.com/linktyp",
   },
   {
     id: 3,
